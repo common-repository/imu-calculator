@@ -1,0 +1,82 @@
+.imu_calculator_form input {
+    border:solid 1px #E5E5E5;
+    outline:0;
+    font:normal 12px/100% Verdana, Tahoma, sans-serif;
+    background:0;
+    
+}
+
+.imu_calculator_form .wrap_eta_figli {
+    width: auto;
+}
+
+.imu_calculator_form select {
+    border:solid 1px #E5E5E5;
+    outline:0;
+    width:250px;
+    font:normal 12px/100% Verdana, Tahoma, sans-serif;
+    background-color:#FFF;
+    background:0;
+    box-shadow:rgba(0,0,0,0.1) 0 0 8px;
+    -moz-box-shadow:rgba(0,0,0,0.1) 0 0 8px;
+    -webkit-box-shadow:rgba(0,0,0,0.1) 0 0 8px;
+    padding:1px;
+}
+
+.imu_calculator_form input:hover,textarea:hover, input:focus,textarea:focus {
+    -webkit-box-shadow:rgba(0,0,0,0.15) 0 0 8px;
+    border-color:#C9C9C9;
+}
+
+.imu_calculator_form td.title {
+    font:normal 10px/100% Verdana, Tahoma, sans-serif;
+    text-align:right;
+    color:#999;
+}
+
+.imu_calculator_form tr td {
+    padding: 2px 2px;
+}
+
+.imu_calculator_form span {
+    font:normal 10px/100% Verdana, Tahoma, sans-serif;
+    margin-left:3px;
+    color:#999;
+}
+
+.imu_calculator_form span.result {
+    font:normal 12px/100% Verdana, Tahoma, sans-serif;
+    background:#617798;
+    border:0;
+    font-size:14px;
+    font-weight:700;
+    color:#FFF;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    padding:9px 15px;
+}
+
+.imu_calculator_form label.add {
+    font:normal 10px/100% Verdana, Tahoma, sans-serif;
+}
+
+#imc_calculator_tipBox{
+	background: #FFF;
+	color: #617798;
+	border: 1px solid #617798;
+	font-size: 10px;
+	padding: 3px;
+	width: 180px;
+}
+#imc_calculator_tipBox.blue{
+	color: #FFF;
+}
+#imc_calculator_tipBox.width{
+	width: auto;
+}
+#imc_calculator_tipBox.big{
+	width: auto;
+	font-size: 40px;
+	line-height: 1em;
+	padding: 1em;
+}
